@@ -1,0 +1,36 @@
+{
+  "name": "tinypic",
+  "version": "0.0.0",
+  "description": "Compress JPG or PNG file in command line.",
+  "license": "MIT",
+  "repository": "egoist/tinypic",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "echo lol"
+  },
+  "bin": "cli.js",
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "compress",
+    "image",
+    "tinify",
+    "tinypng",
+    "tinyjpg"
+  ],
+  "dependencies": {
+    "cac": "^1.0.0",
+    "configstore": "^2.0.0",
+    "io-spin": "^0.3.0",
+    "suffix": "^0.1.0",
+    "tinify": "^1.3.0"
+  }
+}
