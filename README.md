@@ -10,7 +10,7 @@ $ npm install -g tinypic
 
 ## Usage
 
-Get an API Key first: https://tinypng.com/developers/
+Get an API Key first: https://tinypng.com/developers
 
 ```bash
 # Set API Key before use
