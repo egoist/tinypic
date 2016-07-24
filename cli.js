@@ -10,7 +10,7 @@ const Spin = require('io-spin')
 // utilities
 const spin = new Spin('Box1', 'Processing')
 const extRe = /(\.jpe?g|\.png)$/
-const cwd = fp => path.join(process.cwd(), fp)
+const cwd = fp => path.resolve(process.cwd(), fp)
 const validExt = filename => extRe.test(filename)
 const stderr = msg => {
   console.log(msg)
